@@ -1,0 +1,68 @@
+﻿<Window x:Class="AppliMars.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <StackPanel Orientation="Horizontal" Height="46" Margin="326,26,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="107">
+            <!-- Mois -->
+            <StackPanel Margin="0" Orientation="Vertical">
+                <Label Margin="0,0,0,0" Name="lblMonth" FontWeight="Bold" Height="24" VerticalAlignment="Top" HorizontalContentAlignment="Left" Foreground="DarkBlue" HorizontalAlignment="Left" Width="Auto">October</Label>
+                <StackPanel Orientation="Horizontal" Height="22">
+                    <Image MouseLeftButtonDown="decrementMois" Height="12" HorizontalAlignment="Left" Margin="6,6,0,0" Name="imgMonthDecrease" Source="/AppliMars;component/MyArrowLeft.gif" Stretch="Fill" VerticalAlignment="Top" Width="14" Cursor="Hand" />
+                    <Image MouseLeftButtonDown="incrementMois" Margin="7,6,0,0" Name="imgMonthIncrease" Stretch="Fill" Height="12" VerticalAlignment="Top" Source="/AppliMars;component/MyArrowRight.gif" HorizontalAlignment="Left" Width="14" Cursor="Hand" />
+                </StackPanel>
+            </StackPanel>
+            <!-- Année -->
+            <StackPanel Margin="0" Orientation="Vertical">
+                <Label FontWeight="Bold" Height="29" VerticalContentAlignment="Top" Margin="0,0,0,0" Name="lblYear" VerticalAlignment="Top" HorizontalAlignment="Left" Width="38" Foreground="DarkBlue">2042</Label>
+                <StackPanel Orientation="Horizontal" Height="17">
+                    <Image MouseLeftButtonDown="decrementAnnee" Cursor="Hand" Margin="5,0,0,0" Name="imgYearDecrease" Source="/AppliMars;component/MyArrowLeft.GIF" Stretch="Fill" Height="12" VerticalAlignment="Top" HorizontalAlignment="Left" Width="14" />
+                    <Image MouseLeftButtonDown="incrementAnnee" Cursor="Hand" Margin="6,0,0,0" Name="imgYearIncrease" Source="/AppliMars;component/MyArrowRight.GIF" Stretch="Fill" Height="12" VerticalAlignment="Top" HorizontalAlignment="Left" Width="14" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+
+        <ListView HorizontalAlignment="Left" Height="30" Margin="80,77,0,0" VerticalAlignment="Top" Width="353" >
+            <!-- Permet d'afficher en  ligne la liste des jours -->
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="1" Columns="7">
+
+                    </UniformGrid>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+
+            <!-- Rends la sélection transparente -->
+            <ListView.Resources>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="Transparent" />
+                <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Color="Transparent" />
+            </ListView.Resources>
+
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Foreground" Value="Black"></Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+
+
+            <!-- Liste des jours -->
+            <ListViewItem>Dim</ListViewItem>
+            <ListViewItem>Lun</ListViewItem>
+            <ListViewItem>Mar</ListViewItem>
+            <ListViewItem>Mer</ListViewItem>
+            <ListViewItem>Jeu</ListViewItem>
+            <ListViewItem>Ven</ListViewItem>
+            <ListViewItem>Sam</ListViewItem>
+        </ListView>
+
+        <!-- Barre de recherche -->
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="80,30,0,0" TextWrapping="Wrap" Text="Barre de recherche" VerticalAlignment="Top" Width="211" TextChanged="TextBox_TextChanged"/>
+
+    </Grid>
+</Window>
