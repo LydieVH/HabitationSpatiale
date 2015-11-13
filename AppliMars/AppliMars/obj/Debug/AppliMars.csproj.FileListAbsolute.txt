@@ -11,3 +11,6 @@ C:\Users\Barret\documents\visual studio 2013\Projects\AppliMars\AppliMars\obj\De
 C:\Users\Barret\documents\visual studio 2013\Projects\AppliMars\AppliMars\obj\Debug\AppliMars.csproj.GenerateResource.Cache
 C:\Users\Barret\documents\visual studio 2013\Projects\AppliMars\AppliMars\obj\Debug\AppliMars.exe
 C:\Users\Barret\documents\visual studio 2013\Projects\AppliMars\AppliMars\obj\Debug\AppliMars.pdb
+C:\Users\LVH2\Documents\HabitationSpatiale\AppliMars\AppliMars\bin\Debug\AppliMars.exe.config
+C:\Users\LVH2\Documents\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.exe
+C:\Users\LVH2\Documents\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.pdb
