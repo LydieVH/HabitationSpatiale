@@ -11,3 +11,16 @@ C:\Users\Barret\documents\visual studio 2013\Projects\AppliMars\AppliMars\obj\De
 C:\Users\Barret\documents\visual studio 2013\Projects\AppliMars\AppliMars\obj\Debug\AppliMars.csproj.GenerateResource.Cache
 C:\Users\Barret\documents\visual studio 2013\Projects\AppliMars\AppliMars\obj\Debug\AppliMars.exe
 C:\Users\Barret\documents\visual studio 2013\Projects\AppliMars\AppliMars\obj\Debug\AppliMars.pdb
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\bin\Debug\AppliMars.exe.config
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.exe
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.pdb
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\bin\Debug\AppliMars.exe
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\bin\Debug\AppliMars.pdb
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.csprojResolveAssemblyReference.cache
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\MainWindow.baml
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\MainWindow.g.cs
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\App.g.cs
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars_MarkupCompile.cache
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.g.resources
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.Properties.Resources.resources
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.csproj.GenerateResource.Cache
