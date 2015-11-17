@@ -29,12 +29,7 @@ public class Map
 		set;
 	}
 
-	public virtual {
-		get;
-		set;
-	}
-
-	public Map(string UuneImage)
+	public Map(string UneImage)
 	{
 	}
 

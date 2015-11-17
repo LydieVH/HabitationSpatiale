@@ -23,11 +23,6 @@ public class Planning
 		set;
 	}
 
-	public virtual {
-		get;
-		set;
-	}
-
 	public virtual void majCompteur()
 	{
 		throw new System.NotImplementedException();
