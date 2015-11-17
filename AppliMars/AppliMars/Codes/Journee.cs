@@ -11,6 +11,11 @@ using System.Text;
 
 public class Journee
 {
+    public virtual List<Activite> listeActivites {
+        get;
+        set;
+    }
+
 	public virtual int _numero
 	{
 		get;
@@ -29,11 +34,6 @@ public class Journee
 		set;
 	}
 
-	public virtual IEnumerable<Activite> listeActivites
-	{
-		get;
-		set;
-	}
 
 	public Journee(int unNumero)
 	{

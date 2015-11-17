@@ -11,6 +11,11 @@ using System.Text;
 
 public class Planning
 {
+    public virtual List<Journee> tableauJournees {
+        get;
+        set;
+    }
+
 	public virtual int _compteJour
 	{
 		get;

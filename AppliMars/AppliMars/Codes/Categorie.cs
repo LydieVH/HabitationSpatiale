@@ -11,6 +11,18 @@ using System.Text;
 
 public class Categorie
 {
+
+    public Categorie SuperCategorie {
+        get;
+        set;
+    }
+
+    public Categorie SousCategorie {
+        get;
+        set;
+    }
+
+
 	public virtual string _nomCaterogie
 	{
 		get;

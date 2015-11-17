@@ -11,6 +11,16 @@ using System.Text;
 
 public class Activite
 {
+    private List<Astronaute> tableauAstronautes;
+
+    public List<Astronaute> mesAstronautes {
+        get { return tableauAstronautes; }
+        set { tableauAstronautes = value; }
+    }
+    
+
+
+
 	public virtual DateTime _debutTache
 	{
 		get;

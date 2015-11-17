@@ -7,3 +7,6 @@ C:\Users\Barret\Documents\GitHub\AppliMars\AppliMars\bin\Debug\AppliMars.pdb
 C:\Users\Barret\Documents\GitHub\AppliMars\AppliMars\obj\Debug\AppliMars.exe
 C:\Users\Barret\Documents\GitHub\AppliMars\AppliMars\obj\Debug\AppliMars.pdb
 C:\Users\Barret\Documents\GitHub\AppliMars\AppliMars\obj\Debug\AppliMars.Find.resources
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\bin\Debug\AppliMars.exe.config
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.exe
+C:\Users\Barret\Documents\GitHub\HabitationSpatiale\AppliMars\AppliMars\obj\Debug\AppliMars.pdb
