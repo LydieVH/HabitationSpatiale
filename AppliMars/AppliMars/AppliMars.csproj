@@ -50,6 +50,7 @@
     <Compile Include="Codes\Journee.cs" />
     <Compile Include="Codes\Lieu.cs" />
     <Compile Include="Codes\Map.cs" />
+    <Compile Include="Codes\Mission.cs" />
     <Compile Include="Codes\Planning.cs" />
     <Compile Include="Find.cs">
       <SubType>Form</SubType>
